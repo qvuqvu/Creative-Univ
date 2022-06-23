@@ -10,6 +10,7 @@ import Finance from "./Components/finance/finance";
 import Form from "./Components/form/form";
 import Job from "./Components/job/job";
 import Navbar from "./Components/navbar/navbar";
+import Footer from "./Components/footer/footer";
 
 function App() {
   const [windowSize, setWindowSize] = useState({
@@ -101,6 +102,7 @@ function App() {
         </div>
         <Job />
       </div>
+      <Footer isMobile={isMobile}/>
     </div>
   );
 }
