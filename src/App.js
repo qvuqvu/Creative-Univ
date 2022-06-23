@@ -82,7 +82,7 @@ function App() {
       </div>
 
       <div className="mt-5">
-        <Sponsor/>
+        <Sponsor isMobile={isMobile}/>
       </div>
       <div>
         <Finance/>

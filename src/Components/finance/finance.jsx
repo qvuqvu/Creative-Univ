@@ -19,30 +19,30 @@ const Finance = () => {
             giá, góp ý với những nhận xét chân thành và thực tế nhất.
           </p>
         </div>
-        <div className="font-body text-10 font-medium mt-5 ml-5 mr-10 flex flex-col">
+        <div className="font-body text-10 font-medium mt-5 ml-10 mr-10 flex flex-col">
           <p className="">
             Học phí{" "}
             <span className="font-head text-20 font-semibold mt-5 ml-5 text-center">
               8.500.000 VND
             </span>
           </p>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-gray-300 h-[52px] font-head text-[30px] font-semibold text-center mt-5">
+          <div className="grid grid-cols-2 gap-4 place-items-center">
+            <div className="bg-gray-300 w-full h-[52px] font-head text-[30px] font-semibold mt-5 text-center">
               50%
             </div>
-            <div className="bg-gray-300 h-[52px] font-head text-[30px] font-semibold text-center mt-5">
+            <div className="bg-gray-300 w-full h-[52px] font-head text-[30px] font-semibold mt-5 text-center">
               20%
             </div>
           </div>
           <div className="flex justify-center">
             <div className="flex flex-col -ml-10">
-              <div className="font-head text-10 font-medium flex flex-col w-[110px] h-[50px] mt-5 ml-[40px]">
+              <div className="font-head text-10 font-medium flex flex-col w-[110px] h-[50px] mt-5 ml-[15px]">
                 <img src="https://i.imgur.com/cyZGdLe.png" alt="light" />
               </div>
-              <p className="mt-8 ml-2 text-[25px] font-hand"> Xem chi tiết</p>
+              <p className="mt-8 -ml-[45px] text-[25px] font-hand"> Xem chi tiết</p>
             </div>
 
-            <div className="relative mt-[35px] ml-[16px]">
+            <div className="relative mt-[35px] ml-[15px]">
               <span class="absolute w-[22px] h-[22px] inline-flex rounded-full bg-yellow-main " />
               <span class="asolute animate-ping w-[22px] h-[22px] inline-flex rounded-full bg-yellow-main " />
             </div>
