@@ -1,12 +1,15 @@
 const Finance = () => {
   return (
     <section className="">
-      <div className="justify-center items-center bg-White">
-        <div className="font-head text-[16px]; text-center font-semibold mt-5">
+      <div className="lg:visible first-line:font-head text-[30px]; text-center font-semibold mt-5">
+          Đừng để vấn đề về tài chính <br /> cản bước bạn?
+        </div>
+      <div className="flex flex-col md:flex-row bg-White">
+        <div className="lg:invisible first-line:font-head text-[16px] text-center font-semibold mt-5">
           Đừng để vấn đề về tài chính <br /> cản bước bạn?
         </div>
 
-        <div className="font-body font-medium text-[9.5px] mt-5">
+        <div className="font-body font-medium text-[9.5px] lg:tex-12 mt-5">
           <p className="leading-6 px-5">
             Chúng tôi hiểu và đồng cảm với những trăn trở về tài chính của bạn
             vào lúc này…

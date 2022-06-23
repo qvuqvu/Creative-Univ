@@ -55,22 +55,22 @@ function App() {
           <Special />
         </div>
 
-        <div className="mt-20 px-4 lg:px-[200px]">
+        <div className="mt-20 px-4 lg:px-[180px] md:px-[50px]">
           <div className="flex justify-center font-head font-semibold text-16 lg:text-24">
             Hành trình phát triển
           </div>
-          <div className="mt-10  grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-x-[15px] lg:gap-y-[15px]">
+          <div className="mt-10  grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-x-[15px] lg:gap-y-[15px] ">
             <StepCard />
           </div>
 
           <div
-            className="mt-[30px] flex flex-col
+            className="mt-[50px] flex flex-col
         items-center"
           >
             <div className="flex justify-center font-head font-semibold text-16  lg:text-24">
               Mentor dẫn dắt
             </div>
-            <div className="font-body text-[11px] lg-text[16px]">
+            <div className="font-body text-[11px] lg:text-[16px]">
               Mỗi chương trình sẽ có bộ 3 Mentors đồng hành cùng bạn
             </div>
           </div>
@@ -78,7 +78,7 @@ function App() {
         </div>
         
       </div>
-      <div>
+      <div className="mt-10">
       <SimpleSwiperWithParams isMobile={isMobile} />
       </div>
 
