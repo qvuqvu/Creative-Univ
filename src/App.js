@@ -81,10 +81,10 @@ function App() {
       <SimpleSwiperWithParams isMobile={isMobile} />
       </div>
 
-      <div className="mt-5">
+      <div className="mt-20">
         <Sponsor isMobile={isMobile}/>
       </div>
-      <div>
+      <div className="mt-20" >
         <Finance/>
       </div>
       <div className="mb-[120px]">
