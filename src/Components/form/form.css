@@ -13,6 +13,11 @@
     font-family: "Montserrat Alternates", Montserrat, Sharpen;
 }
 
+#contactFormDesktop .form-control {
+  font-size: 16px; 
+  font-family: "Montserrat Alternates", Montserrat, Sharpen;
+}
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -127,13 +132,18 @@
   z-index: -1;
   top: 0;
   transform-origin: left top;
-  transform: skewY(-4deg);
+  transform: skewY(-3.17deg);
 }
 
 .slanted-div:after {
   bottom: 0;
   transform-origin: left bottom;
   transform: skewY(0deg);
+}
+
+.img{
+  clip-path: url(#clipPath);
+
 }
 
 /* displays the content inside, as these settings in the parent breaks the effect */

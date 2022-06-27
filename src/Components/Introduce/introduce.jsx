@@ -29,7 +29,7 @@ const Introduce = () => {
             </div>
           </div>
 
-          <div className="flex flex-col z-10 font-semibold ml-5 lg:text-[38px] lg:ml-[70px]">
+          <div className="flex flex-col z-10 font-regular  ml-5 lg:text-[38px] lg:ml-[70px]">
             <div className="group-hover:animate-SlideIn2 font-hand">
               {" "}
               <p>Introduce</p>

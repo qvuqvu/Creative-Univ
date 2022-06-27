@@ -74,35 +74,33 @@ function App() {
               Mỗi chương trình sẽ có bộ 3 Mentors đồng hành cùng bạn
             </div>
           </div>
-         
         </div>
-        
       </div>
       <div className="mt-10">
-      <SimpleSwiperWithParams isMobile={isMobile} />
+        <SimpleSwiperWithParams isMobile={isMobile} />
       </div>
 
       <div className="mt-20">
-        <Sponsor isMobile={isMobile}/>
+        <Sponsor isMobile={isMobile} />
       </div>
-      <div className="mt-20" >
-        <Finance/>
+      <div className="mt-20">
+        <Finance />
       </div>
       <div className="mb-[120px]">
-        <Form/>
+        <Form isMobile={isMobile} />
       </div>
-      <div className="-mt-20 ">
+      <div className="-mt-20 lg:px-[80px]">
         <div
           className="mt-[10px]0 flex flex-col
         items-center"
         >
-          <div className="flex justify-center font-head font-semibold text-16">
+          <div className="flex justify-center font-head font-semibold text-16 lg:text-24 ">
             Đối tác tuyển dụng
           </div>
         </div>
-        <Job />
+        <Job isMobile={isMobile} />
       </div>
-      <Footer isMobile={isMobile}/>
+      <Footer isMobile={isMobile} />
     </div>
   );
 }
