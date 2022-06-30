@@ -12,7 +12,7 @@ const Special = () => {
             Nội dung thực tế với <br /> Brief thật, Việc thật, <br /> Người Thật{" "}
           </p>
         </div>
-
+    
         <div className="font-head text-10 md:text-16 font-medium mt-5 flex flex-col items-center">
           <img className="md:w-4/5 md:h-4/5 md:-mt-4" src="https://i.imgur.com/Q0uEzBD.png" alt="light" />
           <p className="text-center md:-mt-10">

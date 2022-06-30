@@ -48,11 +48,11 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <div className="py-4 ">
+      <div className="py-4 mt-10 ">
         <div>
           <HomeVideo isMobile={isMobile} />
         </div>
-        <div className="px-4">
+        <div className="px-4 mt-10">
           <Problems isMobile={isMobile} />
         </div>
         <div className="mt-16">
@@ -62,7 +62,7 @@ function App() {
           <Special />
         </div>
 
-        <div className="mt-20 px-4 lg:px-[180px] md:px-[50px]">
+        <div className="mt-20 px-3 lg:px-[180px] md:px-[50px]">
           <div className="flex justify-center font-head font-semibold text-16 lg:text-24">
             Hành trình phát triển
           </div>

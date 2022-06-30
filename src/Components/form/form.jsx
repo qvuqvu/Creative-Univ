@@ -207,7 +207,7 @@ const Form = (props) => {
               <button>
                 <div
                   onClick={() => {
-                    window.open("http://google.com", "_blank");
+                    window.open("https://forms.gle/QsLV7vAvU3rZUFLh6", "_blank");
                   }}
                   className="z-40 relative flex justify-center -mt-[130px] ml-[250px]"
                 >

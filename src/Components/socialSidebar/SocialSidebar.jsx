@@ -17,29 +17,29 @@ function SocialSidebar () {
         h-[188px] ease-in-out duration-300" onClick={() => setIsOpen(!isOpen)}>
         <div className="flex flex-col items-center gap-5">
         <div>
-        <a className="z-30" href="https://www.facebook.com/ULTIMATE.Mystery/">
+        <a className="z-30" href="https://www.facebook.com/creativeuniv/">
         <img
           className=""
-          src="https://i.imgur.com/SGN6rnv.png"
+          src="./img/youtube.svg"
           alt="Youtube"
         />
         </a>  
         </div>
         <div>
-        <a className="z-30" href="https://www.facebook.com/ULTIMATE.Mystery/">
+        <a className="z-30" href="https://www.facebook.com/creativeuniv/">
         <img
           className=""
-          src="https://i.imgur.com/MMleym7.png"
-          alt="light"
+          src="./img/Facebook1.svg"
+          alt="Facebook"
         />
         </a>  
         </div>  
         <div>
-        <a className="z-30" href="https://www.facebook.com/ULTIMATE.Mystery/">
+        <a className="z-30" href="https://www.facebook.com/creativeuniv/">
         <img
           className=""
-          src="https://i.imgur.com/yDaMqEl.png"
-          alt="light"
+          src="./img/Instagram.svg"
+          alt="Instagram"
         />
         </a>  
         </div>    

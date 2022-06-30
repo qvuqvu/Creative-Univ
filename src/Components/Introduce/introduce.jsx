@@ -1,7 +1,6 @@
 import "./introduce.css";
-import {AiFillPlayCircle} from "react-icons/ai";
+import { AiFillPlayCircle } from "react-icons/ai";
 const Introduce = () => {
- 
   return (
     <section>
       <div className=" bg-yellow-main h-[211px] slanted-div group lg:h-[500px]">
@@ -36,11 +35,28 @@ const Introduce = () => {
             </div>
 
             <div className="ml-14 -mt-2 lg:-mt-7 lg:ml-[140px]">
-            <img className="lg:w-[50px] lg:h-[120px] w-[20px] h-[50px]" src="https://i.imgur.com/ZinrXno.png" alt="arrow" />
+              <img
+                className="lg:w-[50px] lg:h-[120px] w-[20px] h-[50px]"
+                src="https://i.imgur.com/ZinrXno.png"
+                alt="arrow"
+              />
             </div>
-            <div className="ml-3">
-              <AiFillPlayCircle className="hover:fill-orange-main scale-[3.5] mt-5 ml-4 lg:mt-10 lg:ml-[80px]" color="white"/>
-            </div>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1bshp5CDcuv8go1nUtsKIttJZ3Uz5p5EO/view?usp=sharing",
+                  "_blank"
+                );
+              }}
+            >
+              {" "}
+              <div className="ml-3">
+                <AiFillPlayCircle
+                  className="hover:fill-orange-main scale-[3.5] mt-5 ml-4 lg:mt-10 lg:ml-[80px]"
+                  color="white"
+                />
+              </div>
+            </button>
           </div>
         </div>
 

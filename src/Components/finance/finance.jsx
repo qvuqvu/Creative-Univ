@@ -82,7 +82,9 @@ const Finance = () => {
               </p>
             </div>
 
-            <button className="relative mt-[35px] ml-[15px]">
+            <button  onClick={() => {
+                    window.open("https://drive.google.com/file/d/1bshp5CDcuv8go1nUtsKIttJZ3Uz5p5EO/view?usp=sharing", "_blank");
+                  }} className="relative mt-[35px] ml-[15px]">
               <span class="absolute w-[22px] h-[22px] inline-flex rounded-full bg-yellow-main " />
               <span class="asolute animate-ping w-[22px] h-[22px] inline-flex rounded-full bg-yellow-main " />
             </button>
