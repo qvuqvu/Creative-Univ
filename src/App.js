@@ -13,6 +13,7 @@ import Job from "./Components/job/job";
 import Navbar from "./Components/navbar/navbar";
 import Footer from "./Components/footer/footer";
 import BackToTopButton from "./Components/BackToTopButton/BackToTopButton"
+import SocialSidebar from "./Components/socialSidebar/SocialSidebar"
 
 function App() {
   const [windowSize, setWindowSize] = useState({
@@ -43,6 +44,7 @@ function App() {
 
   return (
     <div className="h-screen ">
+      <SocialSidebar/>
       <div>
         <Navbar />
       </div>
