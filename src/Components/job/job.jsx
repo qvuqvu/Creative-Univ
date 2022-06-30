@@ -144,10 +144,6 @@ const Job = (props) => {
               </div>
               </button>
             </SwiperSlide>
-            
-
-          
-           
           </Swiper>
         </section>
       )}
