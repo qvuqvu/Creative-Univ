@@ -25,7 +25,7 @@ const Special = () => {
           <img className="md:w-4/5 md:h-4/5" src="https://i.imgur.com/rgrQPH7.png" alt="light" />
           <p className="text-center">
             {" "}
-            Nội dung thực tế với <br /> Brief thật, Việc thật, <br /> Người Thật{" "}
+            Đội ngũ Mentors trẻ, <br /> nhiệt huyết & từ 5 năm <br /> kinh nghiệm thực chiến
           </p>
         </div>
 
