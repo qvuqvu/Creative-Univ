@@ -1,12 +1,15 @@
+import { useState } from "react";
+
 const Finance = () => {
+  const [showDiscount50, setShowDiscount50] = useState(false);
+  const [showDiscount20, setShowDiscount20] = useState(false);
+
   return (
     <section className="">
       <div className=" first-line:font-head lg:text-[30px] text-[16px] text-center font-semibold mt-5">
         Đừng để vấn đề về tài chính <br /> cản bước bạn?
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-center bg-White">
-      
-
         <div className="font-body font-medium text-[9.5px]  lg:text-16 mt-10">
           <p className="leading-6 px-5 lg:px-10 lg:-ml-20 lg:leading-7 ">
             Chúng tôi hiểu và đồng cảm với những trăn trở về tài chính của bạn
@@ -23,15 +26,48 @@ const Finance = () => {
         <div className="font-body text-10 font-medium mt-10 ml-7 mr-2 flex flex-col ">
           <div className="flex justify-center gap-5">
             <div className="font-head lg:text-16 mt-2">Học phí</div>
-            <div className="flex lg:justify-center font-head lg:text-24 text-20 font-semibold lg:mt-[2px] lg:ml-10 text-center">
-              8.500.000 VND
-            </div>
+            {showDiscount50 ? (
+              <div className="flex lg:justify-center font-head lg:text-24 text-20 font-semibold lg:mt-[2px] lg:ml-10 text-center">
+                4.250.000 VND
+              </div>
+            ) : (
+              <div className="flex lg:justify-center font-head lg:text-24 text-20 font-semibold lg:mt-[2px] lg:ml-10 text-center">
+                8.500.000 VND
+              </div>
+            ) && showDiscount20 ? (
+              <div className="flex lg:justify-center font-head lg:text-24 text-20 font-semibold lg:mt-[2px] lg:ml-10 text-center">
+                6.250.000 VND
+              </div>
+            ) : (
+              <div className="flex lg:justify-center font-head lg:text-24 text-20 font-semibold lg:mt-[2px] lg:ml-10 text-center">
+                8.500.000 VND
+              </div>
+            )}
+
+            
+
           </div>
           <div className="grid grid-cols-2 gap-4 place-items-center justify-center">
-            <div className="bg-gray-300 w-full lg:w-[220px] h-[52px] font-head text-[30px] font-semibold mt-5 text-center">
+            <div
+              onMouseEnter={() => {
+                setShowDiscount50(true);
+              }}
+              onMouseLeave={() => {
+                setShowDiscount50(false);
+              }}
+              className="transition ease-in-out delay-170 bg-gray-300 lg:hover:bg-orange-main w-full lg:w-[220px] h-[52px] font-head text-[30px] font-semibold mt-5 text-center"
+            >
               50%
             </div>
-            <div className="bg-gray-300 w-full h-[52px] font-head text-[30px] font-semibold mt-5 text-center">
+            <div
+              onMouseEnter={() => {
+                setShowDiscount20(true);
+              }}
+              onMouseLeave={() => {
+                setShowDiscount20(false);
+              }}
+              className="transition ease-in-out delay-170 bg-gray-300 lg:hover:bg-orange-main w-full h-[52px] font-head text-[30px] font-semibold mt-5 text-center"
+            >
               20%
             </div>
           </div>
@@ -46,10 +82,10 @@ const Finance = () => {
               </p>
             </div>
 
-            <div className="relative mt-[35px] ml-[15px]">
+            <button className="relative mt-[35px] ml-[15px]">
               <span class="absolute w-[22px] h-[22px] inline-flex rounded-full bg-yellow-main " />
               <span class="asolute animate-ping w-[22px] h-[22px] inline-flex rounded-full bg-yellow-main " />
-            </div>
+            </button>
           </div>
         </div>
       </div>
