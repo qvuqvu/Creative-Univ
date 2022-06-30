@@ -12,7 +12,7 @@ import Form from "./Components/form/form";
 import Job from "./Components/job/job";
 import Navbar from "./Components/navbar/navbar";
 import Footer from "./Components/footer/footer";
-
+import BackToTopButton from "./Components/BackToTopButton/BackToTopButton"
 
 function App() {
   const [windowSize, setWindowSize] = useState({
@@ -42,7 +42,7 @@ function App() {
   }, [windowSize]);
 
   return (
-    <div className="h-screen overflow-auto">
+    <div className="h-screen ">
       <div>
         <Navbar />
       </div>
@@ -106,6 +106,7 @@ function App() {
         <Job isMobile={isMobile} />
       </div>
       <Footer isMobile={isMobile} />
+      <BackToTopButton/>
     </div>
   );
 }
