@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import HomeVideo from "./Components/homeVideo/homeVideo"
 import Introduce from "./Components/Introduce/introduce";
 import Problems from "./Components/Problems/problems";
 import Special from "./Components/Special/special";
@@ -11,6 +12,7 @@ import Form from "./Components/form/form";
 import Job from "./Components/job/job";
 import Navbar from "./Components/navbar/navbar";
 import Footer from "./Components/footer/footer";
+
 
 function App() {
   const [windowSize, setWindowSize] = useState({
@@ -45,6 +47,9 @@ function App() {
         <Navbar />
       </div>
       <div className="py-4 ">
+        <div>
+          <HomeVideo isMobile={isMobile} />
+        </div>
         <div className="px-4">
           <Problems isMobile={isMobile} />
         </div>

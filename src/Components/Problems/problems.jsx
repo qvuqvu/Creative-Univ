@@ -1,7 +1,7 @@
 const Problems = (props) => {
   const {isMobile} = props;
   return (
-    <section className="lg:">
+    <section className="mt-10">
       <div className="justify-center items-center bg-White">
         <div className="lg:flex">
           <div className="lg: ml-[5%]">
