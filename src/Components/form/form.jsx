@@ -90,19 +90,23 @@ const Form = (props) => {
             />
           </div>
 
-          <div
-            onClick={
-              "https://docs.google.com/forms/d/e/1FAIpQLSfibdtq1gAH0BZiIqXAf4Ez9nQzMqS2rMVQ5mkCj5q3aRPETA/viewform"
-            }
-            className="z-40 relative flex justify-center -mt-[39px] ml-[5px]"
+          <button
+            onClick={() => {
+              window.open(
+                "https://forms.gle/QsLV7vAvU3rZUFLh6",
+                "_blank"
+              );
+            }}
           >
-            <span class="absolute w-[45px] h-[45px] inline-flex rounded-full bg-yellow-main " />
-            <span class="asolute animate-ping w-[45px] h-[45px] inline-flex rounded-full bg-yellow-main" />
-          </div>
+            <div className="z-50 relative flex justify-center -mt-[70px] ml-[160px]">
+              <span class="absolute w-[45px] h-[45px] inline-flex rounded-full bg-yellow-main " />
+              <span class="asolute animate-ping w-[45px] h-[45px] inline-flex rounded-full bg-yellow-main" />
+            </div>
+          </button>
 
-          <div className="z-[10]">
+          <div className="z-10">
             <img
-              className="w-full -mt-[260px] -z-[10]"
+              className="w-full -mt-[260px] -z-10"
               src="https://i.imgur.com/YlslnpE.png"
               alt="hands"
             />
@@ -207,7 +211,10 @@ const Form = (props) => {
               <button>
                 <div
                   onClick={() => {
-                    window.open("https://forms.gle/QsLV7vAvU3rZUFLh6", "_blank");
+                    window.open(
+                      "https://forms.gle/QsLV7vAvU3rZUFLh6",
+                      "_blank"
+                    );
                   }}
                   className="z-40 relative flex justify-center -mt-[130px] ml-[250px]"
                 >
@@ -222,9 +229,6 @@ const Form = (props) => {
                   alt="hands"
                 />
               </div>
-
-             
-
             </div>
           </div>
         </section>
