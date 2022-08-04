@@ -43,13 +43,13 @@ function App() {
   }, [windowSize]);
 
   return (
-    <div className="h-screen ">
-      <SocialSidebar/>
+    <div className="h-screen overflow-auto ">
+       <div className="hidden md:block"><SocialSidebar/></div>
       <div>
         <Navbar />
       </div>
       <div className="py-4 mt-10 ">
-        <div>
+        <div className="hidden md:block">
           <HomeVideo isMobile={isMobile} />
         </div>
         <div className="px-4 mt-10">
@@ -108,7 +108,8 @@ function App() {
         <Job isMobile={isMobile} />
       </div>
       <Footer isMobile={isMobile} />
-      <BackToTopButton/>
+      <div className="hidden md:block"><BackToTopButton/>
+        </div>
     </div>
   );
 }
