@@ -22,14 +22,16 @@ const Job = (props) => {
             onSlideChange={() => console.log("slide change")}
           >
             <SwiperSlide className="flex justify-center">
-              <div className="bg-gray-300 h-[190px] w-[190px] ">
+              <div onClick={() => {
+                    window.open("https://www.careerlink.vn/tim-viec-lam/chuyen-vien-chinh-sua-hinh-anh-va-video-fpt-play-ha-noi/2317225", "_blank");
+                  }} className="bg-gray-300 h-[189px] w-[190px] ">
                 <div className="h-[90px]">
-                  <img src="https://i.imgur.com/timpSoQ.jpg" alt="img" />
+                  <img src="https://i.imgur.com/fXeN91d.png" alt="img" />
+
                 </div>
                 <div className="bg-yellow-main h-[90px] mt-2 flex slanted-div flex-col items-center">
                   <p className="mt-3 font-head text-[14px] font-medium">
-                    {" "}
-                    Argency
+                  FPT PLAY HÀ NỘI
                   </p>
                   <p className="mt-0.5 font-body text-10">
                     Junior Graphic Design
@@ -38,14 +40,15 @@ const Job = (props) => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="flex justify-center">
-              <div className="bg-gray-300 h-[190px] w-[190px] ">
+              <div  onClick={() => {
+                    window.open("https://www.careerlink.vn/tim-viec-lam/chuyen-vien-thiet-ke-do-hoa/2314009", "_blank");
+                  }} className="bg-gray-300 h-[189px] w-[190px] ">
                 <div className="h-[90px]">
-                  <img src="https://i.imgur.com/timpSoQ.jpg" alt="img" />
+                  <img src="https://i.imgur.com/78Ujd4r.png" alt="img" />
                 </div>
                 <div className="bg-yellow-main h-[90px] mt-2 flex slanted-div flex-col items-center">
                   <p className="mt-3 font-head text-[14px] font-medium">
-                    {" "}
-                    Argency
+                  Apax English
                   </p>
                   <p className="mt-0.5 font-body text-10">
                     Junior Graphic Design
@@ -54,17 +57,18 @@ const Job = (props) => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="flex justify-center">
-              <div className="bg-gray-300 h-[190px] w-[190px] ">
+              <div  onClick={() => {
+                    window.open("https://careers.garena.com/vn/careers/845", "_blank");
+                  }} className="bg-gray-300 h-[189px] w-[190px] ">
                 <div className="h-[90px]">
                   <img src="https://i.imgur.com/timpSoQ.jpg" alt="img" />
                 </div>
                 <div className="bg-yellow-main h-[90px] mt-2 flex slanted-div flex-col items-center">
                   <p className="mt-3 font-head text-[14px] font-medium">
-                    {" "}
-                    Argency
+                  Garena
                   </p>
                   <p className="mt-0.5 font-body text-10">
-                    Junior Graphic Design
+                  Associate Graphic Design
                   </p>
                 </div>
               </div>
