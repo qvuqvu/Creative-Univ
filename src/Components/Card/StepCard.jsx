@@ -2,7 +2,7 @@ const StepCard = () => {
   return (
     <>
      <div className="transition ease-in-out delay-120 group bg-gray-300 lg:bg-gray-300    lg:hover:bg-yellow-main h-[190px]  lg:h-[294px]">
-        <div className="transition ease-in-out delay-120 lg:border-0 lg:group-hover:border-1   border-0 border-gray-900 ml-3 mt-2 w-[30px] h-[30px] rounded-full bg-yellow-main flex justify-center items-center font-hand text-[30px]">
+        <div className="transition ease-in-out delay-120 lg:border-0 lg:group-hover:border-1 md:-mt-2  border-0 border-gray-900 ml-3 mt-2 w-[30px] h-[30px] rounded-full bg-yellow-main flex justify-center items-center font-hand text-[30px]">
           1
         </div>
         <div className="mt-3 font-hand text-20 flex justify-center">
