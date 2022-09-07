@@ -16,32 +16,32 @@ const Sponsor = (props) => {
           <div className="ml-5 mr-5">
 
           <div className="grid grid-cols-2 gap-1.5 place-items-center">
-        <div className="bg-White w-full h-[39px] font-head text-[30px] font-semibold  mt-5">
-          <img className="w-[130px] h-[35px] mx-auto" src="https://i.imgur.com/rOGkMCb.png" alt="light"/>
+        <div className="bg-White w-full  font-head text-[30px] font-semibold  mt-5">
+          <img className="w-auto h-auto mx-auto" src="https://i.imgur.com/rOGkMCb.png" alt="light"/>
         </div>
-        <div className="bg-White w-full h-[39px] font-head text-[30px] font-semibold  mt-5">
-        <img className="w-[130px] h-[35px] mx-auto" src="https://i.imgur.com/YFS1IL3.png" alt="light"/>
+        <div className="bg-White w-full font-head text-[30px] font-semibold  mt-5">
+        <img className="w-auto h-auto mx-auto" src="https://i.imgur.com/YFS1IL3.png" alt="light"/>
         </div>
         </div>
 
         <div className="grid grid-cols-2 gap-1.5 place-items-center">
-        <div className="bg-White w-full h-[39px] font-head text-[30px] font-semibold  mt-1.5">
-          <img className="w-[130px] h-[35px] mx-auto" src="https://i.imgur.com/4NPlb4C.png" alt="light"/>
+        <div className="bg-White w-full  font-head text-[30px] font-semibold  mt-1.5">
+          <img className="w-auto h-auto mx-auto" src="https://i.imgur.com/4NPlb4C.png" alt="light"/>
         </div>
-        <div className="bg-White w-full h-[39px] font-head text-[30px] font-semibold mt-1.5">
-        <img className="w-[130px] h-[35px] mx-auto" src="https://i.imgur.com/QZarebj.png" alt="light"/>
+        <div className="bg-White w-full  font-head text-[30px] font-semibold mt-1.5">
+        <img className="w-auto h-auto mx-auto" src="https://i.imgur.com/QZarebj.png" alt="light"/>
         </div>
         </div>
 
         <div className="grid grid-cols-3 gap-1 place-items-center">
-        <div className="bg-White w-full h-[39px] font-head text-[30px] font-semibold  mt-1.5 mb-6">
-          <img className="w-[130px] h-[35px] mx-auto" src="https://i.imgur.com/YzJSOAp.png" alt="light"/>
+        <div className="bg-White w-full font-head text-[30px] font-semibold  mt-1.5 mb-6">
+          <img className="w-auto h-auto mx-auto" src="https://i.imgur.com/YzJSOAp.png" alt="light"/>
         </div>
-        <div className="bg-White w-full h-[39px] font-head text-[30px] font-semibold mt-1.5 mb-6">
-        <img className="w-[130px] h-[35px] mx-auto" src="https://i.imgur.com/BBlh3vT.png" alt="light"/>
+        <div className="bg-White w-full  font-head text-[30px] font-semibold mt-1.5 mb-6">
+        <img className="w-auto h-auto mx-auto" src="https://i.imgur.com/BBlh3vT.png" alt="light"/>
         </div>
-        <div className="bg-White w-full h-[39px] font-head text-[30px] font-semibold mt-1.5 mb-6">
-        <img className="w-[130px] h-[35px] mx-auto" src="https://i.imgur.com/bMbrkfy.png" alt="light"/>
+        <div className="bg-White w-full font-head text-[30px] font-semibold mt-1.5 mb-6">
+        <img className="w-auto h-auto mx-auto" src="https://i.imgur.com/bMbrkfy.png" alt="light"/>
         </div>
         </div>
 
