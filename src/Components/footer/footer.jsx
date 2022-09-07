@@ -5,7 +5,7 @@ const Footer = (props) => {
       {isMobile ? (
         <div className="bg-gray-300 pt-[5%]">
           <div className="ml-[6%] mr-[5%]">
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row gap-5">
               <div className="flex flex-col w-[50%]">
                 <div className="">
                   <div>
@@ -23,10 +23,8 @@ const Footer = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col w-[15%] leading-7">
-              
-              </div>
-              <div className="flex flex-col w-[35%] mt-[17%] leading-7">
+          
+              <div className="flex flex-col w-[40%] mt-[17%] leading-7">
                 <div className="ml-[2%]">
                   <div>
                     <p className="text-[14px] font-body font-semibold">
@@ -35,12 +33,12 @@ const Footer = (props) => {
                   </div>
                   <div className="mt-[15px]">
                     <p className="text-[10px] font-body font-medium">
-                      85, Phan Kế Bính, Quận 1, Tp.HCM
+                      122-124 B2, Khu đô thị Sala, TP Hồ Chí Minh
                     </p>
                   </div>
                   <div>
                     <p className="text-[10px] font-body font-medium">
-                      9soulvn@gmail.com
+                    info.creativeuniv@gmail.com
                     </p>
                   </div>
                   <div>
@@ -117,12 +115,12 @@ const Footer = (props) => {
                   </div>
                   <div className="mt-[15px]">
                     <p className="text-[14px] font-body font-medium">
-                      85, Phan Kế Bính, Quận 1, Tp.HCM
+                    122-124 B2, Khu đô thị Sala, TP. Hồ Chí Minh
                     </p>
                   </div>
                   <div>
                     <p className="text-[14px] font-body font-medium">
-                      9soulvn@gmail.com
+                    info.creativeuniv@gmail.com
                     </p>
                   </div>
                   <div>
