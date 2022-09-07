@@ -96,7 +96,7 @@ function App() {
       <div className="mb-[120px]">
         <Form isMobile={isMobile} />
       </div>
-      <div className="-mt-20 lg:px-[80px]">
+      {/* <div className="-mt-20 lg:px-[80px]">
         <div
           className="mt-[10px]0 flex flex-col
         items-center"
@@ -106,7 +106,7 @@ function App() {
           </div>
         </div>
         <Job isMobile={isMobile} />
-      </div>
+      </div> */}
       <Footer isMobile={isMobile} />
       <div className="hidden md:block"><BackToTopButton/>
         </div>
